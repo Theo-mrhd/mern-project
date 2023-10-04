@@ -25,6 +25,7 @@ app.listen(3000, () => {
   console.log("Server listening on port 3000");
 });
 
+// À essayer sans le /api
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
 
